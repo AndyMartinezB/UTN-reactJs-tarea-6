@@ -1,0 +1,22 @@
+.lista-usuarios, .filtro-usuarios {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+.input-filtro {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-filtro:focus {
+    outline: none;
+    border-color: #63682f; /* Tu verde principal */
+    
+    /* Sombra: eje-x eje-y difuminado color(con transparencia) */
+    box-shadow: 0 0 8px rgba(99, 104, 47, 0.4); 
+}

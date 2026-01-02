@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+footer {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.6);
+}
