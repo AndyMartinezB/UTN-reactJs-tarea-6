@@ -1,0 +1,68 @@
+.usuarios-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    /* background-color: aquamarine; */
+}
+.usuarios-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    /* background-color: burlywood; */
+}
+.lista-usuarios{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    /* background-color: brown; */
+}
+
+.usuarios-filtros {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.input-filtro {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-filtro:focus {
+    outline: none;
+    border-color: #63682f; 
+    box-shadow: 0 0 8px rgba(99, 104, 47, 0.4); 
+}
+
+.button-reload {
+    padding: 0.5rem 1rem;
+    background-color: #63682f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lista-usuarios-vacia {
+    font-style: italic;
+    color: #bbb;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}
+.error-box {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ff4d4f;
+    background-color: #fff1f0;
+    color: #a8071a;
+    border-radius: 4px;
+}
